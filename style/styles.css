@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Castoro', serif;
-    background-image: url("/asstes/background1.jpg");
+    background-image: url("/img/background1.jpg");
     background-size: cover;
 }
 
@@ -13,12 +13,23 @@ body{
     border-radius: 25px;   
     text-align: center;
 }
+.container_project{
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+    border-radius: 25px;   
+    
+}
 .grey{
     background-color:#FEF3C7;
 }
 #icon{
     width: 60%;
     height: 60%;
+}
+#github_icon{
+    width:30px;
+    height: 30px;
 }
 #header{
     padding: 1rem;
@@ -29,9 +40,13 @@ h1{
     padding: 1rem 0 0 0;
     margin: 1rem 0 0 0;
 }
+h3{
+    padding: 0;
+    margin: 0;
+}
 p{
     margin: 0;
-    padding: 1rem 0 ;
+    padding: 1rem 0 0.5rem 0 ;
 }
 
 ul{
@@ -39,17 +54,30 @@ ul{
     margin: 0 1rem 0rem 0;
     overflow: hidden;
 }
-li{
-    display: inline;  
-    padding: 0.5rem 1rem;  
-}
+
 
 a{
     text-decoration: none;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #F59E0B;
+}
+
+.link_color{
+    background-color: #F59E0B;  
+    color: white;
+}
+.no_border{
+    border: none;
 }
 
 .navigation{
+    display: inline; 
     float: right;
+    padding: 0.5rem 1rem; 
+}
+.bottom_footer{
+    display: inline;   
 }
 
   
