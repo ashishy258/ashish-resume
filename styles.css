@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body{
+    font-family: 'Castoro', serif;
+    background-image: url("/asstes/background1.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+    border-radius: 25px;   
+    text-align: center;
+}
+.grey{
+    background-color:#FEF3C7;
+}
+#icon{
+    width: 60%;
+    height: 60%;
+}
+#header{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h1{
+    padding: 1rem 0 0 0;
+    margin: 1rem 0 0 0;
+}
+p{
+    margin: 0;
+    padding: 1rem 0 ;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0 1rem 0rem 0;
+    overflow: hidden;
+}
+li{
+    display: inline;  
+    padding: 0.5rem 1rem;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    float: right;
+}
+
+  
+
