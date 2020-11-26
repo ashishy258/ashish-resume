@@ -52,6 +52,7 @@ p{
 ul{
     list-style-type: none;
     margin: 0 1rem 0rem 0;
+    padding: 1rem;
     overflow: hidden;
 }
 
@@ -73,11 +74,11 @@ a{
 
 .navigation{
     display: inline; 
-    float: right;
     padding: 0.5rem 1rem; 
 }
 .bottom_footer{
-    display: inline;   
+    display: inline; 
+    padding: 1rem 1rem;   
 }
 
   
